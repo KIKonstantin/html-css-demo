@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+body,
+head {
+    font-family: serif;
+    color: white;
+    background-color: #abd699;
+    background-color: #16123f;
+    position: relative;
+}
+
+.article-title {
+    position: relative;
+}
+
+h2::after {
+    content: "TOP";
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #16123f;
+    background-color: #ffe26a;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    position: absolute;
+    top: -20px;
+    right: -25px;
+}
+
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+
+h3+p::first-line {
+    color: #ffe26a;
+}
+
+nav {
+    text-align: center;
+    font-size: 22px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+body {
+    text-align: justify;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #75c9b7;
+    border-top: 5px solid #ffe26a;
+    padding: 15px 40px;
+    margin-bottom: 60px;
+    height: 80px;
+}
+
+.main-header h1 {
+    font-size: 36px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #75c9b7;
+    border-top: 5px solid #ffe26a;
+    border-bottom: 5px solid #ffe26a;
+    color: #16123f;
+    padding: 50px 0;
+    width: 80%;
+}
+
+aside h4 {
+    color: #ffe26a;
+    font-family: 'Silkscreen', cursive;
+}
+
+h1,
+h2,
+h3 {
+    color: #abd699;
+}
+
+h1 {
+    color: #ffe26a;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Silkscreen', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+#copywrite {
+    font-size: 14px;
+}
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.related-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #16123f;
+    margin-left: 10px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #ffe26a;
+    text-decoration: underline wavy #16123f;
+}
+
+a:active {
+    background-color: #16123f;
+}
+
+#mdn {
+    color: #ffe26a;
+}
+
+#mdn:hover {
+    color: #c7ddcc;
+    text-decoration: underline #ffe26a;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+.post-image {
+    width: 100%;
+}
+
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    /* bottom: 50px;
+    left: 50px; */
+    bottom: 50px;
+    right: 50px;
+}
+
+.author-image {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.author {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
