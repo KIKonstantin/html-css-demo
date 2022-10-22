@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>FORM PRACTICE</title>
+</head>
+
+<body>
+    <article>
+        <form action="/" methrod="post" id="form-reg">
+            <div class="head">
+                <img src="/icon.png" alt="my logo" />
+                <h2>Register form</h2>
+            </div>
+            <div class="labels">
+                <label for="Email">Email*</label>
+                <input type="text" name="email" id="email" />
+            </div>
+
+            <div class="labels">
+                <label for="username">Username*</label>
+                <input type="text" name="username" id="username" />
+            </div>
+
+            <div class="labels">
+                <label for="password">Password*</label>
+                <input type="password" name="password" id="password" />
+            </div>
+            <div class="labels">
+                <label for="repass">Repass*</label>
+                <input type="password" name="repass" id="repass" />
+            </div>
+
+            <div class="validation">
+                <label for="validation">Answer the equation: 2 + 4 = </label>
+                <input type="text" id="answer-input" />
+            </div>
+            <div class="buttons">
+                <a href="/">forgot password?</a>
+                <button id="register-btn">Register</button>
+            </div>
+        </form>
+    </article>
+</body>
+
+<script src="/index.js"></script>
+
+</html>
