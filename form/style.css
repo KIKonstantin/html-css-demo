@@ -24,7 +24,7 @@ form {
     display: grid;
     align-self: center;
     width: 500px;
-    height: 60vh;
+    height: 700px;
     background-color: rgb(243, 253, 146, 0.9);
 }
 
@@ -32,17 +32,18 @@ form {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* gap: 20px; */
 }
 
 .head img {
     width: 40px;
     height: 40px;
-    padding-right: 15vw;
-    margin-left:2vw;
+    padding-right: 150px;
+    margin-left: 20px;
 }
 
 .head h2 {
-    margin-right: 5vw;
+    margin-right: 25px;
 }
 
 .labels {
